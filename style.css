@@ -1,0 +1,1635 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Asap', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+span {
+    color: red;
+}
+
+.principal {
+    width: 100%;
+    height: 550px;
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+}
+
+.face-info {
+    /* background: brown; */
+    width: 90%;
+    height: 580px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img-section {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 50%;
+    height: 480px;
+    /* background-color: green; */
+}
+
+.img-section img {
+    width: 600px;
+    height: 350px;
+}
+
+.info-section {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 480px;
+    /* background-color: cyan; */
+    padding: 10px 0px 10px 0px;
+}
+
+.info-section h1 {
+    font-size: 3.9rem;
+    margin-bottom: 20px;
+    color: #242424
+}
+
+.info-section span {
+    color: red;
+}
+
+.info-section p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #5f5f5f
+}
+
+.info-section a, .btnSectionAll {
+    width: 250px;
+    height: 50px;
+    padding: 15px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+}
+
+/* Começo da segunda seção */
+
+.section-2 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: green; */
+}
+
+.section-2-itens {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-2-list {
+    width: 100%;
+    height: 100px;
+    display: flex;
+}
+
+.section-2-list li {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(236, 234, 234);
+}
+
+.section-2-list a {
+    margin-right: 15px;
+    color: #000
+}
+
+.section-2-list i {
+    color: red;
+}
+
+/* comeco da terceira secao */
+
+.section-3-conteudo img {
+    width: 110px;
+    height: 50px;
+    margin: 10px 0;
+}
+
+.section-3-conteudo h1 {
+    font-size: 1.9rem;
+    color: #242424
+}
+
+.section-3-conteudo p {
+    width: 35%;
+    height: 50px;
+    text-align: center;
+    font-size: 1rem;
+    margin: 20px 0;
+    color: #5f5f5f
+}
+
+.section-3 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3-conteudo {
+    width: 90%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #fbfbfb;
+}
+
+/* comeco da secao 4 */
+
+.section-4 {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    /* background-color: cyan; */
+}
+
+.section-4-itens {
+    width: 90%;
+    height: 480px;
+    display: flex;
+    flex-direction: row-reverse;
+    /* background-color: blue; */
+}
+
+.section-4-img {
+    width: 55%;
+    height: 480px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.section-4-img img {
+    width: 420px;
+    height: 420px;
+}
+
+.section-4-text {
+    width: 45%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #5f5f5f
+}
+
+.section-4-text h1 {
+    margin-bottom: 10px;
+    font-size: 3.2rem;
+    color: #242424
+}
+
+.section-4-text span {
+    color: red;
+}
+
+.section-4-text p {
+    font-size: 1.2rem;
+    margin-top: 30px;
+}
+
+/* comeco secao 5 */
+
+.section-5 {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fbfbfb;
+}
+
+.section-5-org {
+    width: 90%;
+    height: 700px;
+    display: flex;
+    /* background-color: rgb(43, 43, 75) */
+}
+
+.section-5-text-img {
+    width: 80%;
+    height: 700px;
+    display: flex;
+    /* background-color: green; */
+}
+
+.section-5-img {
+    width: 35%;
+    height: 700px;
+    /* background-color: cyan; */
+}
+
+.section-5-img #img-section-5-flex {
+    display: none;
+}
+
+.section-5-text {
+    width: 50%;
+    height: 700px;
+}
+
+.section-5-list {
+    width: 25%;
+    display: flex;
+    /* background-color: gray; */
+}
+
+.section-5-text h1 {
+    font-size: 3.5rem;
+    color: #242424
+}
+
+.section-5-text p {
+    font-size: 1.2rem;
+    color: #5f5f5f;
+    margin: 24px 0;
+}
+
+.section-5-list p {
+    color: #5f5f5f;
+    margin: 10px 0px;
+}
+
+.section-5-list li {
+    margin-bottom: 50px;
+}
+
+.section-5-itens {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* background-color: green; */
+    border-left: 1px solid #cccaca
+}
+
+/* comeco secao 6 */
+
+.section-6 {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+}
+
+.section-6-org {
+    width: 90%;
+    height: 600px;
+    display: flex;
+    /* background-color: red; */
+}
+
+.section-6-text {
+    width: 50%;
+    height: 600px;
+    /* background-color: pink; */
+}
+
+.section-6-img {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    height: 600px;
+}
+
+.section-6-img p {
+    text-align: center;
+    width: 90%;
+    margin: 20px 0;
+    font-size: 1.2rem;
+    color: #5f5f5f;
+}
+
+.section-6-text h1 {
+    width: 70%;
+    font-size: 3.5rem;
+    color: #242424
+}
+
+.section-6-text p {
+    margin: 30px 0;
+    font-size: 1.2rem;
+    color: #5f5f5f
+}
+
+.section-7 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.section-7-org {
+    width: 90%;
+    height: 150px;
+    /* background-color: green; */
+}
+
+.section-7-itens {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+}
+
+.section-7-list {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-7-list li {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section-7-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section-7-text p, .section-7-text a {
+    margin: 5px 10px;
+    font-size: 13px;
+    color: #5f5f5f
+}
+
+.section-7-text a {
+    color: red;
+}
+
+/* comeco secao 7 */
+
+.section-8 {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-8-org {
+    width: 90%;
+    height: 500px;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-8-text {
+    width: 50%;
+    height: 480px;
+    font-size: 2rem;
+    color: #242424
+}
+
+.section-8-text p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    inline-size: 700px;
+    padding: 5px;
+    line-height: 25px;
+    color: #5f5f5f
+}
+
+.section-8-img {
+    margin-left: 50px;
+}
+
+/* comeco secao 9 */
+
+.section-9 {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-9-org {
+    width: 90%;
+    height: 480px;
+    display: flex;
+}
+
+.section-9-text {
+    width: 50%;
+    height: 480px;
+    font-size: 2rem;
+    color: #242424;
+    inline-size: 630px;
+}
+
+.section-9-img {
+    width: 50%;
+    height: 480px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-9-text p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+/* comeco secao 10 */
+
+.section-10 {
+    width: 100%;
+    height: 150px;
+    /* background-color: cyan; */
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+    ;
+}
+
+.section-10-org {
+    width: 90%;
+    height: 150px;
+    /* background-color: red; */
+}
+
+.section-10-itens {
+    width: 100%;
+    height: 150px;
+}
+
+.section-10-list {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.section-10-list li {
+    display: flex;
+    align-items: center;
+}
+
+.section-10-text {
+    margin: 0 10px;
+    color: #5f5f5f;
+    font-size: 14px;
+}
+
+.section-10-text a {
+    color: red;
+}
+
+/* comeco secao 11 */
+
+.section-11 {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+}
+
+.section-11-org {
+    width: 90%;
+    height: 380px;
+    display: flex;
+    justify-content: center;
+    /* background-color: blue; */
+    padding: 20px 0;
+}
+
+.section-11-img {
+    width: 50%;
+    height: 350px;
+}
+
+.section-11-text {
+    width: 50%;
+    height: 350px;
+    font-size: 1rem;
+    inline-size: 560px;
+    padding: 20px 0;
+}
+
+.section-11 h1 {
+    text-align: center;
+    color: #242424
+}
+
+.section-11-text p {
+    margin: 20px 0;
+    font-size: 1.1rem;
+    color: #5f5f5f;
+    inline-size: 520px;
+    line-height: 25px;
+    ;
+}
+
+/* comeco secao 12 */
+
+.section-12 {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.section-12-org {
+    width: 90%;
+    height: 280px;
+    display: block;
+}
+.section-12-list {
+    width: 100%;
+    height: 300;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section-12-list li {
+    width: 360px;
+    height: 270px;
+    border-left: 1px solid #ccc;
+    padding: 0 20px;
+    color: #242424;
+    font-size: 1.1rem;
+    line-height: 25px;
+}
+
+.section-12-list li:first-child {
+    border: none;
+}
+
+.section-12-list p {
+    margin-top: 20px;
+    color: #5f5f5f;
+}
+
+.section-12-info {
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #5f5f5f
+}
+
+.section-12-org .info {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* footer */
+
+.div-footer {
+    width: 100%;
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    background-color: #fbfbfb;
+}
+
+.footer-text {
+    width: 90%;
+    height: 330px;
+    display: block;
+}
+
+.footer-text-list {
+    width: 100%;
+    height: 330px;
+    font-size: 1.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: #5f5f5f;
+}
+
+.footer-text-list li {
+    margin: 20px 0;
+}
+
+.footer-text-list h1 {
+    font-size: 3.5rem;
+    color: #242424
+}
+
+.footer-text-direitos {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* começo da @media */
+
+@media all and (max-width: 1540px) {
+    .principal {
+        width: 100%;
+        height: 580px;
+    }
+    .face-info {
+        width: 80%;
+        height: 580px;
+        /* background-color: cyan; */
+    }
+    .img-section img {
+        width: 500px;
+        height: 330px;
+    }
+    .face-info h1 {
+        font-size: 2.5rem;
+    }
+    .face-info p {
+        font-size: 1.1rem;
+    }
+    .section-2{
+        width: 100%;
+        height: 100px;
+        margin: 40px 0;
+    }
+    .section-2-itens{
+        width: 80%;
+        height: 100px;
+    }
+    .section-2-list li{
+        width: 90%;
+    }
+    .section-3 {
+        width: 100%;
+        height: 480px;
+    }
+    .section-3-conteudo {
+        width: 80%;
+        height: 380px;
+    }
+    .section-3-conteudo img {
+        width: 100px;
+        height: 40px;
+        object-fit: cover;
+    }
+    .section-3-conteudo h1 {
+        font-size: 1.7rem;
+    }
+    .section-3-conteudo a {
+        width: 220px;
+        font-size: 1rem;
+    }
+    .section-5 {
+        width: 100%;
+        height: 700px;
+        margin: 40px 0;
+    }
+    .section-5-org {
+        width: 80%;
+        height: 600px;
+    }
+    .section-5-text {
+        width: 50%;
+        height: 600px;
+        margin: 0 20px;
+    }
+    .section-5-text h1 {
+        font-size: 2.5rem;
+    }
+    .section-5-text p {
+        font-size: 1rem;
+        line-height: 23px;
+    }
+    .section-5-img img {
+        width: 250px;
+        height: 600px;
+    }
+    .section-5-img #img-section-5-flex {
+        display: none;
+    }
+    .section-5-itens {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+    }
+    .section-5-itens li {
+        width: auto;
+        height: auto;
+        padding: 0 20px;
+    }
+    .section-5-itens p, a {
+        font-size: 13px;
+    }
+    .section-6 {
+        width: 100%;
+        height: 500px;
+        margin: 20px 0;
+    }
+    .section-6-org {
+        width: 80%;
+        height: 100%;
+    }
+    .section-6-text {
+        width: 100%;
+        height: 100%;
+    }
+    .section-6-text h1 {
+        font-size: 2.5rem;
+        inline-size: 500px;
+    }
+    .section-6-text p {
+        font-size: 1rem;
+        line-height: 20px;
+        margin: 10px 0;
+    }
+    .section-6-img {
+        width: 100%;
+        height: 100%;
+    }
+    .section-6-img img {
+        width: 400px;
+        height: 220px;
+    }
+    .section-6-img p {
+        font-size: 1rem;
+        line-height: 25px;
+        margin: 10px 0;
+    }
+    .section-6-text p {
+        margin: 20px 0;
+        line-height: 25px;
+    }
+    .section-7 {
+        width: 100%;
+        height: 100px;
+    }
+    .section-7-org {
+        width: 80%;
+        height: 100%;
+    }
+    .section-7-org img {
+        width: 80px;
+        height: 40px
+    }
+    .section-7-itens {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .section-7-list {
+        display: flex;
+        align-items: center;
+    }
+    .section-7-list p {
+        font-size: 0.7rem;
+    }
+    .section-8 {
+        width: 100%;
+        height: 500px;
+    }
+    .section-8-org {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .section-8-text {
+        width: 50%;
+        height: 100%;
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+    }
+    .section-8-img {
+        width: 50%;
+        height: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+    }
+    .section-8-img img {
+        width: 410px;
+    }
+    .section-8-text h1 {
+        font-size: 3rem;
+    }
+    .section-8-text p {
+        font-size: 1rem;
+        inline-size: 500px;
+        line-height: 25px;
+    }
+    .section-10 {
+        width: 100%;
+        height: 100px;
+    }
+    .section-10-org {
+        width: 80%;
+        height: 100%;
+    }
+    .section-10-org img {
+        width: 80px;
+        height: 40px
+    }
+    .section-10-itens {
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+    .section-10-list {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .section-10-list p {
+        font-size: 0.7rem;
+    }
+    .section-11 {
+        width: 100%;
+        height: 500px;
+    }
+    .section-11-org {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .section-11-text {
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-11-text h1 {
+        font-size: 1.5rem;
+        inline-size: 500px;
+    }
+    .section-11-text p {
+        font-size: 1rem;
+        inline-size: 500px;
+        line-height: 25px;
+    }
+    .section-11-img img {
+        width: 400px;
+        height: 300px;
+    }
+    .section-12 {
+        width: 100%;
+        height: 380px;
+    }
+    .section-12-org {
+        width: 80%;
+        height: 100%;
+    }
+    .section-12-org h1 {
+        font-size: 1.5rem;
+    }
+    .section-12-org p {
+        font-size: 0.8rem;
+        inline-size: 210px;
+    }
+    .section-12-itens {
+        width: 100%;
+        height: 100%;
+    }
+    .section-12-list {
+        width: 100%;
+        height: 100%;
+    }
+    .section-12-list li {
+        width: 100%;
+        height: 70%;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    .face-info {
+        width: 80%;
+        height: 580px;
+    }
+    .img-section img {
+        width: 400px;
+        height: 280px;
+    }
+    .face-info h1 {
+        font-size: 2.5rem;
+    }
+    .face-info p {
+        font-size: 1rem;
+        margin-right: 10px;
+    }
+    .section-3 {
+        width: 100%;
+        height: 380px;
+    }
+    .section-3-conteudo {
+        width: 80%;
+        height: 380px;
+    }
+    .section-3-comteudo img {
+        width: 80px;
+        height: 50px;
+    }
+    .section-3-conteudo h1 {
+        font-size: 1.5rem;
+    }
+    .section-3-conteudo p {
+        font-size: 0.9rem;
+    }
+    .section-3-conteudo a {
+        width: 180px;
+        height: 50px;
+        font-size: .9rem;
+    }
+    .section-4 {
+        width: 100%;
+        height: 600px;
+        margin: 40px 0;
+    }
+    .section-4-itens {
+        width: 80%;
+        height: 600px;
+    }
+    .section-4-img {
+        width: 50%;
+        height: 600px;
+    }
+    .section-4-img img {
+        width: 380px;
+        height: 380px;
+    }
+    .section-4-text {
+        width: 60%;
+        height: 480px;
+    }
+    .section-4-text h1 {
+        font-size: 2.5rem;
+    }
+    .section-4-text p {
+        font-size: 1.1rem;
+        line-height: 25px;
+    }
+    .section-5 {
+        width: 100%;
+        height: 700px;
+    }
+    .section-5-org {
+        width: 80%;
+        height: 600px;
+    }
+    .section-5-list {
+        display: none;
+    }
+    .section-5-text-img {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .section-5-text {
+        width: 50%;
+        height: 600px;
+    }
+    .section-6 {
+        width: 100%;
+        height: 500px;
+        margin: 40px 0;
+    }
+    .section-6-org {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .section-6-text {
+        width: 50%;
+        height: 100%;
+    }
+    .section-6-img {
+        width: 50%;
+        height: 100%;
+    }
+    .section-6-text h1 {
+        font-size: 2.5rem;
+    }
+    .section-6-img img {
+        width: 300px;
+        height: 180px;
+        display: flex;
+        align-items: flex-end;
+    }
+    .section-6-text p {
+        font-size: 1rem;
+        line-height: 25px;
+        margin: 30px 0;
+    }
+    .section-6-img p {
+        line-height: 23px;
+    }
+    .section-8 {
+        width: 100%;
+        height: 500px;
+    }
+    .section-8-org {
+        width: 80%;
+        height: 500px;
+    }
+    .section-8-text h1 {
+        font-size: 2.5rem;
+    }
+    .section-8-img img {
+        width: 350px;
+    }
+    .section-8-text p {
+        inline-size: 480px;
+    }
+    .section-9 {
+        width: 100%;
+        height: 600px;
+    }
+    .section-9-org {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .section-9-text h1 {
+        font-size: 2.5rem;
+    }
+    .section-9-text p {
+        font-size: 0.9rem;
+        inline-size: 400px;
+    }
+    .section-9-img img {
+        width: 300px;
+        height: 300px;
+    }
+    .section-9-img {
+        display: flex;
+        align-items: center;
+    }
+    .section-12 {
+        width: 100%;
+        height: 800px;
+    }
+    .section-12-org {
+        width: 80%;
+        height: 100%;
+    }
+    .section-12-itens{
+        width: 100%;
+        height: 100%;
+    }
+    .section-12-list{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-12-list li{
+        width: 100%;
+        height: 100%;
+        border: none;
+        border-bottom: 1px solid #ccc;
+        margin: 20px 0;
+        padding: 20px 0;
+    }
+    .section-12-list p {
+        inline-size: auto;
+    }
+    .div-footer h1{
+        font-size: 2.5rem;
+    }
+    .div-footer p {
+        font-size: 1.1rem;
+    }
+    .footer-text-direitos p{
+        font-size: 2.9rem;
+    }
+}
+@media all and (max-width: 1050px) {
+    .principal {
+        width: 100%;
+        height: 480px;
+        margin: 20px 0;
+    }
+    .face-info {
+        width: 80%;
+        height: 440px;
+        display: flex;
+        flex-direction: column;
+    }
+    .img-section {
+        width: 100%;
+        height: 20%;
+        display: flex;
+        align-items: flex-start;
+        margin: 10px 0;
+    }
+    .img-section img {
+        width: 80%;
+        height: 100px;
+        object-fit: cover;
+        object-position: bottom;
+    }
+    .info-section {
+        width: 100%;
+        height: 80%;
+        display: flex;
+    }
+    .info-section h1 {
+        inline-size: 500px;
+    }
+    .info-section p {
+        font-size: 1.2rem;
+        inline-size: 580px;
+    }
+    .section-2 {
+        width: 100%;
+        height: 400px;
+        margin: 20px 0;
+    }
+    .section-2-itens {
+        width: 80%;
+        height: 400px;
+    }
+    .section-2-list {
+        width: 100%;
+        height: 400px;
+        align-items: center;
+        flex-direction: column;
+    }
+    .section-2-list li {
+        width: 100%;
+        height: 75px;
+        display: flex;
+        justify-content: flex-start;
+        padding: 0 10px;
+    }
+    .section-3 {
+        width: 100%;
+        height: 280px;
+        margin: 20px 0;
+    }
+    .section-3-conteudo {
+        width: 80%;
+        height: 280px;
+    }
+    .section-3-conteudo h1 {
+        font-size: 1.2rem;
+    }
+    .section-3-conteudo p {
+        inline-size: 270px;
+        ;
+        font-size: .8rem;
+    }
+    .section-3-conteudo a {
+        width: 140px;
+        height: 40px;
+        padding: 10px 0;
+    }
+    .section-4 {
+        width: 100%;
+        height: 500px;
+    }
+    .section-4-itens {
+        width: 80%;
+        height: 400px;
+    }
+    .section-4-img {
+        display: none;
+    }
+    .section-4-text {
+        width: 100%;
+        height: 400px;
+        display: flex;
+        align-items: center;
+    }
+    .section-4-text h1 {
+        font-size: 3rem;
+    }
+    .section-4-text p {
+        font-size: 1rem;
+        line-height: 25px;
+    }
+    .section-5 {
+        width: 100%;
+        height: 700px;
+    }
+    .section-5-org {
+        width: 80%;
+        height: 600px;
+        display: flex;
+        align-items: center;
+    }
+    .section-5-text-img {
+        width: 100%;
+        height: 600px;
+    }
+    .section-5-text p {
+        font-size: .9rem;
+    }
+    .section-5-text h1 {
+        font-size: 2rem;
+    }
+    .section-6 {
+        width: 100%;
+        height: 900px;
+    }
+    .section-6-org {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-6-text {
+        width: 100%;
+        height: 100%;
+    }
+    .section-6-img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .section-6-img img {
+        width: 600px;
+        height: 350px;
+    }
+    .section-6-text p {
+        inline-size: 600px;
+    }
+    .section-6-img p {
+        inline-size: 600px;
+    }
+    .section-8 {
+        width: 100%;
+        height: 400px;
+    }
+    .section-8-org {
+        width: 80%;
+        height: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-8-text {
+        width: 100%;
+        height: 100%;
+    }
+    .section-8-img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .section-8-text p {
+        inline-size: 550px;
+    }
+    .section-8 {
+        width: 100%;
+        height: 800px;
+    }
+    .section-9-org {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .section-9 {
+        width: 100%;
+        height: 700px;
+        margin: 20px 0;
+    }
+    .section-9-text {
+        width: 100%;
+        height: 100%;
+    }
+    .section-9-text p {
+        inline-size: 600px;
+    }
+    .section-9-img {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .section-11 {
+        width: 100%;
+        height: 700px;
+    }
+    .section-11-org {
+        width: 80%;
+        height: 100%;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .section-11-text {
+        width: 100%;
+        height: 100%;
+        inline-size: auto;;
+        display: flex;
+        justify-content: center;
+    }
+    .section-11-img {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+    }
+    .section-11-text h1 {
+        font-size: 1.5rem;
+        inline-size: 600px;
+    }
+    .section-11-text p {
+        font-size: 1rem;
+        inline-size: 600px;
+    }
+    .section-11-img img {
+        width: 500px;
+        height: 350px;
+    }
+    .section-12{
+        width: 100%;
+        height: 850px;
+    }
+}
+@media all and (max-width: 740px) {
+    .principal {
+        width: 100%;
+        height: 400px;
+    }
+    .face-info {
+        width: 90%;
+        height: 420px;
+    }
+    .img-section img {
+        width: 90%;
+        height: 100%;
+    }
+    .info-section {
+        width: 100%;
+        height: 100%;
+    }
+    .info-section h1 {
+        font-size: 1.7rem;
+        inline-size: 360px;
+    }
+    .info-section p {
+        font-size: 1rem;
+        inline-size: 430px;
+        line-height: 20px;
+    }
+    .info-section a {
+        width: 220px;
+        font-size: 1rem;
+        padding: 15px 3px;
+    }
+    .section-2-itens {
+        width: 90%;
+        height: 400px;
+    }
+    .section-3 {
+        width: 100%;
+        height: 380px;
+    }
+    .section-3-conteudo {
+        width: 90%;
+        height: 380px;
+    }
+    .section-4 {
+        width: 100%;
+        height: 500px;
+    }
+    .section-4-itens {
+        width: 90%;
+        height: 500px;
+    }
+    .section-4-text {
+        width: 100%;
+        height: 500px;
+    }
+    .section-4-text h1 {
+        font-size: 2.5rem;
+    }
+    .section-4-text p {
+        font-size: .9rem;
+    }
+    .section-5 {
+        width: 100%;
+        height: 800px;
+        /* background-color: red; */
+        margin: 20px 0;
+    }
+    .section-5-org {
+        width: 90%;
+        height: 100%;
+    }
+    .section-5-text-img {
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section-5-img #img-section-5-flex {
+        display: flex;
+        width: 400px;
+        height: 200px;
+    }
+    .section-5-text {
+        width: 100%;
+        height: 100%;
+        margin: 10px 0;
+    }
+    .section-5-text h1 {
+        font-size: 2.2rem;
+    }
+    .section-5-text p {
+        font-size: .9rem;
+    }
+    .section-5-img #img-section-5-none-mobile {
+        display: none;
+    }
+    .section-6 {
+        width: 100%;
+        height: 900px;
+    }
+    .section-6-org {
+        width: 90%;
+        height: 100%;
+    }
+    .section-6-text {
+        width: 100%;
+        height: 100%;
+    }
+    .section-6-img {
+        width: 100%;
+        height: 100%;
+    }
+    .section-6-text h1 {
+        font-size: 2rem;
+        inline-size: 400px;
+    }
+    .section-6-text p {
+        font-size: 0.9rem;
+        inline-size: 400px;
+    }
+    .section-6-img img {
+        width: 300px;
+        height: 200px;
+    }
+    .section-6-img p {
+        font-size: 0.9rem;
+        inline-size: 400px;
+    }
+    .section-7 {
+        width: 100%;
+        height: 120px;
+    }
+    .section-7-org {
+        width: 90%;
+        height: 100%;
+    }
+    .section-7-itens p{
+        font-size: 0.7rem;
+    }
+    .section-7-itens a{
+        font-size: 0.7rem;
+    }
+    .section-7-itens img{
+        width: 50px;
+        height: 50px;
+    }
+    .section-7-list li{
+        display: flex;
+        align-items: center;
+    }
+    .section-8 {
+        width: 100%;
+        height: 700px;
+    }
+    .section-8-org {
+        width: 90%;
+        height: 100%;
+    }
+    .section-8-text p {
+        font-size: 0.9rem;
+        inline-size: 400px;
+    }
+    .section-9 {
+        width: 100%;
+        height: 800px;
+    }
+    .section-9-org {
+        width: 90%;
+        height: 100%;
+    }
+    .section-9-text p {
+        inline-size: 400px;
+    }
+    .section-10-list p{
+        font-size: 0.6rem;
+    }
+    .section-10-list a{
+        font-size: 0.6rem;
+    }
+    .section-10-list img{
+        width: 50px;
+        height: 50px;
+    }
+    .section-11{
+        width: 100%;
+        height: 700px;
+    }
+    .section-11-org{
+        width: 90%;
+        height: 100%;
+    }
+    .section-11-text{
+        width: 100%;
+        height: 100%;
+        /* background-color: cadetblue; */
+        display: flex;
+        justify-content: center;
+    }
+    .section-11-text h1{
+        font-size: 1.2rem;
+        inline-size: auto;
+    }
+    .section-11-text p{
+        font-size: 0.8rem;
+        inline-size: auto;
+    }
+    .section-11-img img{
+        width: 400px;
+        height: 300px;
+    }
+    .section-12{
+        width: 100%;
+        height: 1000px;
+    }
+    .section-12-org{
+        width: 90%;
+        height: 100%;
+    }
+    .section-12-info{
+        font-size: 0.9rem;
+        text-align: center;
+        margin: 10px 0;
+        display: flex;
+        align-items: center;
+    }
+}
+@media all and (max-width: 500px) {
+    .info-section h1 {
+        inline-size: 370px;
+    }
+    .info-section p {
+        /* background-color: red; */
+        font-size: .9rem;
+        inline-size: 420px;
+    }
+}
